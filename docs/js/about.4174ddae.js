@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkdjango_microservices_tools_web_vue"]=self["webpackChunkdjango_microservices_tools_web_vue"]||[]).push([[443],{5399:function(e,s,n){n.r(s),n.d(s,{default:function(){return a}});var t=function(){var e=this;e._self._c;return e._m(0)},u=[function(){var e=this,s=e._self._c;return s("div",{staticClass:"about"},[s("h1",[e._v("This is an about page")])])}],r=n(1001),i={},o=(0,r.Z)(i,t,u,!1,null,null,null),a=o.exports}}]);
+//# sourceMappingURL=about.4174ddae.js.map
