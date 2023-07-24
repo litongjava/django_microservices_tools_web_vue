@@ -1,0 +1,17 @@
+worker_processes 1;
+daemon off;
+
+error_log stderr;
+events { worker_connections 1024; }
+
+http {
+    access_log off;
+    server {
+        server_name _;
+        keepalive_timeout 5;
+        root dist;
+        location / {
+            try_files $uri $uri/ /index.html;
+        }
+    }
+}
